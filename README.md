@@ -17,7 +17,7 @@ Mirror+ 使用 `subprocess.Popen` 启动镜像服，以此来控制镜像服的�
 4. 在主服务器中使用指令启动镜像服。
 
 ## Config File
-```json
+```json5
 {
     "work_folder": "mirror", // 工作文件夹
     "world_name": [
