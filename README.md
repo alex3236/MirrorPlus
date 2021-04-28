@@ -21,16 +21,16 @@
 
 ## How it works?
 
-Mirror+ 使用 `subprocess.Popen` 启动镜像服，以此来控制镜像服的标准输入输出流。就酱
+Mirror+ 使用 `subprocess.Popen` 启动镜像服，以此来控制镜像服的标准输入输出流。就酱  
 啥，这句话听着耳熟？不存在的，你肯定记错了 :P
 
 
 ## How to use?
 
-1. 将插件文件移动到主服务器 MCDR 的 `plugins` 文件夹
-2. 根据需求编辑配置文件
-3. 将镜像服务端移动到配置文件指定的工作文件夹中，比如 `/mirror`
-4. 重载插件，并在主服务器中使用指令启动镜像服
+1. 将插件文件移动到主服务器 MCDR 的 `plugins` 文件夹  
+2. 根据需求编辑配置文件  
+3. 将镜像服务端移动到配置文件指定的工作文件夹中，比如 `/mirror`  
+4. 重载插件，并在主服务器中使用指令启动镜像服  
 
 
 ## Config File
@@ -68,7 +68,7 @@ Mirror+ 使用 `subprocess.Popen` 启动镜像服，以此来控制镜像服的�
 
 ## Attention!
 
-请注意，**镜像服本身也是一个 Minecraft 服务端。**因此，你需要在工作文件夹建立一个完整的 Minecraft 服务端，并设置与主服务器不同的端口。然后，使用设定的镜像服端口连接到镜像服。
+请注意， **镜像服本身也是一个 Minecraft 服务端。** 因此，你需要在工作文件夹建立一个完整的 Minecraft 服务端，并设置与主服务器不同的端口。然后，使用设定的镜像服端口连接到镜像服。
 
 如果需要更便捷地切换到镜像服务器，请使用 [Velocity](https://velocitypowered.com/) 或者 [BungeeCord](https://www.spigotmc.org/wiki/about-bungeecord/)。
 
